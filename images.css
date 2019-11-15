@@ -1,9 +1,14 @@
 .float-right{
   margin-left: 700;
   margin-right: 100;
-  margin-top: -600;
+  margin-top: -500;
 }
 .float-left {
   margin-left: 300;
   margin-right: 200;
+}
+.bottom{
+  margin-left: 700;
+  margin-right: 100;
+  margin-top: -100;
 }
