@@ -1,3 +1,3 @@
-# cloneProj
+# Instagram Homepage Clone
 
-Only static elements so far
+
