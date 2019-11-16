@@ -23,7 +23,7 @@
             body {font-family: Arial, Helvetica, sans-serif;}
             form {border: 3px solid #f1f1f1;}
 
-            input[type=text], input[type=password] {
+            input[type=text], input[type=password],input[type=usernm],input[type=passwd] {
               width: 25%;
               padding: 12px 20px;
               margin: 2px 0;
@@ -58,16 +58,21 @@
             </style>
             </head>
             <body>
+
               <div class="container">
+                <button type="submit">Login With Facebook</button>
+
                 <label for="uname"><b></b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
+                <input type="text" placeholder="Mobile Number or Email" name="uname" required>
 
                 <label for="psw"><b></b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
-                <label for="psw"><b></b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
-                <label for="psw"><b></b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
+                <input type="password" placeholder="Full Name" name="psw" required>
+
+                <label for="user"><b></b></label>
+                <input type="usernm" placeholder="Username " name="user" required>
+
+                <label for="pass"><b></b></label>
+                <input type="passwd" placeholder="Password" name="pass" required>
 
                 <button type="submit">Login</button>
               </div>
